@@ -1,0 +1,204 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color:rgb(1, 1, 83);
+    display: fixed;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+.header  span.logo
+{
+    background:linear-gradient(to right, #4300fcf3, #f901fc);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+     
+     padding:15px;
+     font-size:30px;
+     display:absolute;
+}
+
+.nav
+{
+    text-align:right;
+    padding-right:80px;
+    margin-top: -25px;
+}
+
+
+
+.header h3 a
+{
+   
+	margin-right: 35px;
+	background:linear-gradient(to left, #4200fc, #f901fc);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+     transition: background-color 0.3s, border-bottom 0.3s;
+     
+}
+.header h3 a:hover {
+    
+    border-bottom: 8px solid transparent; /* Set initial border to transparent */
+    background-image: linear-gradient(to right, #00a0fc, #fc01b1); /* Gradient color for hover */
+max-width: 100%;
+}
+
+
+
+#home {
+    
+    background-image: url("homepagebg.jpg");
+
+background-repeat:no-repeat;
+
+background-size:cover;
+
+
+   
+
+}
+#home{
+    display:absolute;
+    padding:50px;
+    height:100%;
+    max-width: 100%;
+}
+.greetings
+{
+    display:absolute;
+    color:white; 
+    text-align:left;
+    padding:50px;
+    font-size:30px;
+    margin-bottom:-9%;
+    
+}
+
+.homi
+{
+    padding:50px;
+    color:aliceblue;
+    text-align: justify;
+    text-align-last: left;
+}
+.homi span.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background: linear-gradient(to right, #ff6b6b, #556270); /* Example gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homi span.intro
+{
+    display:absolute;
+    font-weight:bold;
+    font-size:40px;
+}
+
+.vitae
+      {margin-top:12px;
+       
+       border: solid;
+        border-color:white ;
+        padding: 10px 20px;
+        padding-top: 20px;
+        padding-bottom:20px;
+       
+        display: inline-block;
+        margin-left:100px;
+    
+        border-radius: 12px; /* Rounded corners */
+       
+        cursor: pointer;
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        
+       margin-bottom:0;
+       
+      }
+      .vitae:hover {
+        background-color: #2a286d;  /* Darker green on hover */
+        
+        border-radius:30px;
+        transition: 0.5s ease-in-out;
+        transition: 0.10s ease-out;
+
+    }
+   
+
+   .vitae a{
+color:#fff;
+
+font-size: 20px;
+text-align: center;
+text-decoration:none;
+font-family:'Segoe UI';
+
+   }
+
+   
+
+
+
+
+   
+    
+    
+.social{
+    
+   padding-left:5%;
+   margin-top:3%;
+   
+}
+.social a{
+   
+    text-align: left;
+    
+}
+
+.social a{
+    display: inline-block;
+    margin-right: 13px;
+    
+    padding: 5px 10px;
+    background-image:linear-gradient(to left, #00a0fc, #fc01b1);
+    color: rgb(5, 8, 179);
+    text-decoration:none;
+    
+    border-radius: 12px;
+}
+
+.social a:hover {
+    color:white;
+    
+}
+
+
+.ds
+{
+display:flex;
+position:relative;
+
+
+justify-content:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+

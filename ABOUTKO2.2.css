@@ -1,0 +1,100 @@
+#services {
+    
+
+    background: linear-gradient(to bottom, #180f69, #3a0544,  #050ebb ); /* Gradient background color */
+    color: #fff; /* Text color */
+   
+  padding:50px;
+  }
+  #services .text{
+    width:60%;
+    margin:1.5rem auto;
+    font-size:20px;
+    text-align:center;
+   
+  }
+
+  .text{
+    justify-content:left;
+  }
+  #services .item
+  {
+   
+    text-align:center;
+    padding:1.5rem 0 4rem 0;
+    margin:1.5 rem 0;
+   
+    cursor:pointer;
+    
+    
+  }
+
+
+  /*#services .row
+  {
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+
+  #services .text{
+    width:70%;
+    margin:1.5rem auto;
+    text-align:center;
+  }
+
+  #services .item
+  {
+   
+    text-align:center;
+    padding:1.5rem 0 4rem 0;
+    margin:1.5 rem 0;
+   
+    cursor:pointer;
+    
+    
+  }
+
+  #services .item span{
+    font-size:5 rem;
+    color:green;
+  }
+
+ #services .item h2{
+    text-transform:uppercase;
+    font-size: 1rem;
+    font-weight:600;
+    letter-spacing: 3px;
+    position:flex;
+
+ }
+
+ #services .item h2::after
+{
+    content:"";
+    position:relative;
+    bottom:0;
+    background-color:green ;
+    width:50px;
+    height:0.5px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#services .item:hover{
+    background:green;
+
+}
+#services .item:hover span{
+    color:#fff;
+
+}
+#services .item:hover h2
+{
+    color:black;
+}
+
+#services .item:hover h2::after
+{
+    background:black;
+}*/
